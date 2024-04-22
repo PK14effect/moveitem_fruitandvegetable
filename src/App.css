@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  height: 100%;
+  max-height: none;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ccc;
+  margin: 5px;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  height: 100%;
+  max-height: none;
+}
+
+.item {
+  background-color: #f0f0f0;
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+  height: 90vh;
+}
+
+.Vege {
+
+  font-family: system-ui;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  background-color: #dddddd;
+  margin-bottom: 10px;
+
+}
+
+.Fru {
+
+  font-family: system-ui;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  background-color: #dddddd;
+  margin-bottom: 10px;
+
+}
+
+.STyl {
+  text-align: center;
+  background-color: white;
+  border: 1px solid #eddede;
+  font-family: system-ui;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
